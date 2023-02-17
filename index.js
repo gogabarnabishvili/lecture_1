@@ -15,7 +15,7 @@ function formSubmit(e) {
         console.log(`last name ${userForm[1].value}`);
     } else {
         console.log("max character is 50 name and last name");
-        alert("errerr");
+        alert("max character is 50 name and last name");
     }
     console.log(`you age is ${userForm[2].value}`);
     // radio valid
@@ -36,7 +36,7 @@ function formSubmit(e) {
         console.log(`good you password is ${userForm[4].value}`);
     } else {
         errMsgPass.style.display = "block";
-        alert("error");
+        alert("error you password not is valid");
     }
 
     // email valid
@@ -45,7 +45,7 @@ function formSubmit(e) {
     ) {
         console.log(`good you email is ${userForm[6].value}`);
     } else {
-        alert("error");
+        alert("you email not valid");
         console.log("Miley form is broken");
     }
     // user lisst
